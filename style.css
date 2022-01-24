@@ -1,3 +1,24 @@
-.color-title {
-    color: #77CC6D;
+.image-design {
+    position: relative;
+}
+
+.image-design img {
+    width: 100%;
+    opacity: 0.5;
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+
+.image-design img:hover {
+    opacity: 1.0;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
 }
