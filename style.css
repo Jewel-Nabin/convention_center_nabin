@@ -26,3 +26,13 @@ body {
     transform: translate(-50%, -50%);
     color: white;
 }
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
